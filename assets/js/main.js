@@ -51,7 +51,12 @@ sr.reveal('.skills__data',{interval: 200});
 sr.reveal('.skills__img',{delay: 600});
 
 /*SCROLL WORK*/
-sr.reveal('.work__img',{interval: 200}); 
+sr.reveal('.work__img',{interval: 200});
+// sr.reveal('.work__img',{}); 
+sr.reveal('.work__title',{delay: 400}); 
+sr.reveal('.work__text',{delay: 400});
+sr.reveal('.button__view__project',{delay: 200});
+
 
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200});
@@ -71,7 +76,3 @@ new TypeIt("#type1", {
   .pause(500)
   .delete(9)
   .go(); 
-
-
-
-
